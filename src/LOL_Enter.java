@@ -78,7 +78,7 @@ public class LOL_Enter {
 		}
 		frame = new JFrame();
 		frame.getContentPane().setFont(new Font("Tahoma", Font.PLAIN, 11));
-		frame.setTitle("Fdr - LOL Auto Enter v 0.9.6 Beta");
+		frame.setTitle("Fdr - LOL Auto Enter v 0.9.7 Beta");
 		frame.setResizable(false);
 		frame.setBounds(100, 100, 550, 430);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -129,7 +129,7 @@ public class LOL_Enter {
 		JButton oynaButton = new JButton("OYNA");
 		oynaButton.setBackground(new Color(210, 105, 30));
 		oynaButton.setForeground(new Color(240, 230, 140));
-		oynaButton.setFont(new Font("SansSerif", Font.BOLD | Font.ITALIC, 40));
+		oynaButton.setFont(new Font("Times New Roman", Font.BOLD, 38));
 		oynaButton.setBounds(10, 240, 310, 74);
 		frame.getContentPane().add(oynaButton);
 		
@@ -138,6 +138,7 @@ public class LOL_Enter {
 		resolComboBox.setBounds(150, 162, 170, 24);
 		frame.getContentPane().add(resolComboBox);
 		resolComboBox.addItem("1024 x 768");
+		resolComboBox.addItem("1280 x 1024");
 		resolComboBox.addItem("1366 x 768");
 		resolComboBox.addItem("1440 x 900");
 		resolComboBox.addItem("1920 x 1080");

@@ -290,6 +290,10 @@ public class islemler {
 				x1 = 710; x2 = 720; x3 = 730; x4 = 1240; xd1 = 640; xd2 = 800; y = 70;
 				a = 462; b1 = 360; b2 = 420; b3 = 605; b4 = 453;
 			}
+			else if(userdata.resolution.equals("1280 x 1024")){
+				x1 = 630; x2 = 640; x3 = 650; x4 = 1035; xd1 = 570; xd2 = 705; y = 220;
+				a = 382; b1 = 415; b2 = 480; b3 = 665; b4 = 515;
+			}
 			else
 				return -3;
 			rbt.delay(1000);
