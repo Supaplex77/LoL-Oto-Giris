@@ -141,6 +141,7 @@ public class LOL_Enter {
 		resolComboBox.addItem("1280 x 1024");
 		resolComboBox.addItem("1366 x 768");
 		resolComboBox.addItem("1440 x 900");
+		resolComboBox.addItem("1600 x 900");
 		resolComboBox.addItem("1920 x 1080");
 		
 		JMenuBar menuBar = new JMenuBar();
